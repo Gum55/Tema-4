@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <style>
+           body { background-color: rgba(66, 128, 0, 0.993) }
+        </style> 
+        <h><b><u><mark>Formular de aplicare la job</mark></u></b></h>
+        <fieldset>
+            
+            <legend><b><u><mark>Formular pentru aplicare la <abbr title="French Construction Association">AFB</abbr>:</mark></u></b></legend>
+            <p>Company motto:</p>
+            <cite>Napoleon Bonaparte</cite>
+            <q>Dans mon dictionare, le mot impossible n'existe pas.</q>
+            <p>For the job interview at our company, please fill out the form.</p>
+            <form>
+                <labe for="week">Week:</labe><br>
+                <input type="week" id="week" name="week"></input><br>
+            </form>
+            <form>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date"></input><br>
+            </form>
+            <form>
+                <label for="time">Time:</label><br>
+                <input type="time" id="time" name="time"></input><br>
+            </form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="sname">Second Name:</label><br>
+            <input type="text" id="sname" name="sname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Enter a phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <label for="myfile">Select a file:</label><br>
+            <input type="file" id="myfile" name="myfile"><br>
+            <label for="myfile inser progres">Myfile inser progres:</label><br>
+            <progress id="myfile inser progres" name="myfile inser progres" , value="75" max="100"></progress><br>
+            <label for="disable selected">Choose a job:</label><br>
+            <select id="job" name="job"size="3" multiple>
+                <option value="disable selected">Choose a job:</option>
+                <option value="front-end developer">front-end developer</option>
+                <option value="back-end developer" selected>back-end developer</option>
+                <option value="financiar analist">financiar analist</option>
+                <option value="contabiliti">contabiliti</option>
+            </select><br>
+            <textarea rows="20" cols="70" placeholder="Write your personal description here:"></textarea>
+            <p>Select the experience level.</p>
+            <form>
+                <label for="junior">junior</label>
+                <input type="checkbox" id="junior" name="junior" checked></input>
+            </form>
+            <form>
+                <label for="mediu">mediu</label>
+                <input type="checkbox" id="mediu" name="mediu"></input>
+            </form>
+            <form>
+                <label for="hard">hard</label>
+                <input type="checkbox" id="hard" name="hard"></input>
+            </form>
+            <p>Education level:</p>
+            <form>
+                <input type="radio" id="Faculty" name="Faculty"></input>
+                <label for="Faculty">Faculty</label>
+            </form>
+            <form>
+                <input type="radio" id="master" name="master"></input>
+                <label for="master">master</label>
+            </form>
+            <form>
+                <input type="radio" id="doctorate" name="doctorate"></input>
+                <label for="doctorate">doctorate</label>
+            </form>
+            <p>Imagine cu realizarile companiei:</p>
+            <figure>
+                <img src="https://www.ziuaconstanta.ro/images/stories/2015/07/14/rodica/piramida_paris.jpg" alt="imagine Luvru" width="500" height="400">
+                <figcaption>Fig.1 Imagine cu muzeul Luvru</figcaption>
+            </figure>
+            <p>Is our company also interested in your favorite color?</p>
+            <form>
+                <label for="color">Color:</label>
+                <input type="color" id="color" name="color"></input>
+            </form><br>
+            <p>We are also waiting for you at the physical interview.</p>
+            <address>Company address: Paris nr.22</address>
+            <p>Company phone number:0704343737</p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </fieldset>
+    </body>
+</html>
